@@ -1,6 +1,6 @@
-if (window.DeviceOrientationEvent) {
+if (window.DeviceMotionEvent) {
     document.getElementById("dmeSupported").innerText = "OK - Device Rotation wird unterstützt!";
-    window.addEventListener('deviceorientation', function(event) {
+    window.addEventListener('devicemotion10', function(event) {
 
         document.getElementById("alphaRotation").innerHTML = 'alpha' + event.rotationRate.alpha.toFixed(2);
         document.getElementById("betaRotation").innerHTML = 'beta' + event.rotationRate.beta.toFixed(2);
