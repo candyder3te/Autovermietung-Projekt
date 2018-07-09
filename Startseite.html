@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Rent As car</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/neuesLayout.css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#überuns">Über uns</a></li>
+                    <li><a href="#fahrzeugübersicht">Fahrzeugübersicht</a></li>
+                    <li><a href="#preise">Preise</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h1>Rent A's Car</h1>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Anmeldung</h2>
+                <form>
+                    <div class="form-group" style="width: 60%">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group" style="width: 60%">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Anmeldedaten speichern</label>
+                    </div>
+                    <a href="Benutzerprofil.html" type="submit" class="btn btn-default">Anmelden</a>
+                    <br>
+                    <br>
+                    <a href="">Passwort vergessen?</a>
+                </form>
+            </div>
+            <div class="col-sm-4">
+                <h2>Noch kein Kunde?</h2>
+                <h5>Dann registrier Dich!</h5>
+                <br>
+                <a href="Registrierung.html" class="button">Kostenlos Registieren</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Container ("Über uns" Section) -->
+    <div id="überuns" class="container-fluid">
+        <div class="row">
+            <h2>Über uns</h2><br>
+            <h4>Mobilität bedeutet Freiheit. Freiheit, die Welt zu erleben und mit anderen zu teilen.</h4><br>
+            <p id="Textüberuns">"Deswegen hinterfragen wir, das Unternehmen Rent A’s Car mit mehr als 10 Mitarbeitern in Bingen und Mainz, den Status Quo jeden Tag aufs Neue und arbeiten unermüdlich an einer Zukunft, in der Menschen überall in Bingen und Mainz auf Knopfdruck
+                jederzeit Zugang zu sicherer, effizienter und komfortabler Mobilität haben.<br><br> Egal ob für 6 Minuten, 6 Stunden oder 6 Monate. Egal ob Stadtflitzer, Limousine oder Kleintransporter. Egal ob von Ihnen selbst gefahren, einem Fahrer
+                oder vielleicht sogar bald ganz autonom. <br><br>Stellen Sie sich vor, die eine große mobile Fahrzeugflotte mit mehr als 55 Autos in Bingen und Mainz stünde immer genau dann, solange und dort zur Verfügung, wo Sie es brauchen. Eine Marke,
+                ein Unternehmen, alle Angebote. Mit einem Umsatz von mehr als 200 Tausend Euro sind wir der größte integrierte Mobilitätsdienstleister in Bingen und Mainz.<br> <br>Unsere Motivation sind Sie: Unsere großartigen Kunden, die täglich Höchstleistungen
+                erwarten und uns so immer neu inspirieren, diese noch zu übertreffen. Alles für ein Erlebnis, das Sie nicht nur bewegt, sondern begeistert. So wird Mobilität zur Freiheit – mit Rent A’s Car."</p>
+
+        </div>
+    </div>
+
+    <!-- Container ("Fahrzeugübersicht" Section) -->
+    <div id="fahrzeugübersicht" class="container-fluid text-center bg-grey">
+
+        <h2>Unsere Fahrzeuge</h2>
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+                <li data-target="#myCarousel" data-slide-to="9"></li>
+                <li data-target="#myCarousel" data-slide-to="10"></li>
+                <li data-target="#myCarousel" data-slide-to="11"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/E.jpg" width="1920px" heigth="1080px">
+                </div>
+                <div class="item">
+                    <img src="images/A4.jpg" width="1920px" heigth="1080px">
+                </div>
+                <div class="item">
+                    <img src="images/adam.jpg" width="1920px" heigth="1080px">
+                </div>
+                <div class="item">
+                    <img src="images/fiesta.jpg" width="1920px" heigth="1080px">
+                </div>
+                <div class="item">
+                    <img src="images/focus.jpg" width="1920px" heigth="1080px">
+                </div>
+                <div class="item">
+                    <img src="images/passat.jpg" width="1920px" heigth="1080px">
+                </div>
+                <div class="item">
+                    <img src="images/mondeo.jpg" width="1920px" heigth="1080px">
+                </div>
+                <div class="item">
+                    <img src="images/zoe.jpg" width="1920px" heigth="1080px">
+                </div>
+                <div class="item">
+                    <img src="images/T7.jpg" width="1920px" heigth="1080px">
+                </div>
+                <div class="item">
+                    <img src="images/caddy.jpg" width="1920px" heigth="1080px">
+                </div>
+                <div class="item">
+                    <img src="images/hyundai.jpg" width="1920px" heigth="1080px">
+                </div>
+                <div class="item">
+                    <img src="images/astra.jpg" width="1920px" heigth="1080px">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Container ("Preise" Section) -->
+    <div id="preise" class="container-fluid">
+        <div class="text-center">
+            <h2>Preise</h2>
+            <h4>Wähle die Klasse, die zu Dir passt.</h4>
+        </div>
+        <div class="row slideanim">
+            <div class="col-sx-5 col-sm-6 col-md-5 col-lg-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Kleinstwagen</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p>--</p>
+                        <p><strong>2</strong> Türen</p>
+                        <p><strong>4</strong> Sitzplätze</p>
+                        <p>--</p>
+                        <p><strong>3</strong> Taschen</p>
+                        <p><strong>Manuelles -</strong> Getriebe</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>32 €</h3>
+                        <h4>pro Tag</h4>
+                        <button class="btn btn-lg">Jetzt buchen!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sx-5 col-sm-6 col-md-5 col-lg-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Kompaktklasse</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>Klimaanlage</strong></p>
+                        <p><strong>2</strong> Türen</p>
+                        <p><strong>4</strong> Sitzplätze</p>
+                        <p><strong>1</strong> Koffer</p>
+                        <p><strong>1</strong> Taschen</p>
+                        <p><strong>Manuelles -</strong> Getriebe</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>42 €</h3>
+                        <h4>pro Tag</h4>
+                        <button class="btn btn-lg">Jetzt buchen!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sx-5 col-sm-6 col-md-5 col-lg-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Mittelklasse</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>Klimaanlage</strong></p>
+                        <p><strong>4</strong> Türen</p>
+                        <p><strong>5</strong> Sitzplätze</p>
+                        <p><strong>2</strong> Koffer</p>
+                        <p><strong>1</strong> Taschen</p>
+                        <p><strong>Manuelles -</strong> Getriebe</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>52 €</h3>
+                        <h4>pro Tag</h4>
+                        <button class="btn btn-lg">Jetzt buchen!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sx-5 col-sm-6 col-md-5 col-lg-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Kleintransporter</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>Klimaanlage</strong></p>
+                        <p><strong>3</strong> Türen</p>
+                        <p><strong>2</strong> Sitzplätze</p>
+                        <p><strong>5</strong> Koffer</p>
+                        <p><strong>2</strong> Taschen</p>
+                        <p><strong>Manuelles -</strong> Getriebe</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>45 €</h3>
+                        <h4>pro Tag</h4>
+                        <button class="btn btn-lg">Jetzt buchen!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sx-5 col-sm-6 col-md-5 col-lg-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Elektroklasse</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>Klimaanlage</strong></p>
+                        <p><strong>2</strong> Türen</p>
+                        <p><strong>4</strong> Sitzplätze</p>
+                        <p>--</p>
+                        <p><strong>2</strong> Taschen</p>
+                        <p><strong>Manuelles -</strong> Getriebe</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>65 €</h3>
+                        <h4>pro Tag</h4>
+                        <button class="btn btn-lg">Jetzt buchen!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sx-5 col-sm-6 col-md-5 col-lg-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Limousine</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>Klimaanlage</strong></p>
+                        <p><strong>4</strong> Türen</p>
+                        <p><strong>5</strong> Sitzplätze</p>
+                        <p><strong>2</strong> Koffer</p>
+                        <p><strong>2</strong> Taschen</p>
+                        <p><strong>Automatik -</strong> Getriebe</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>65 €</h3>
+                        <h4>pro Tag</h4>
+                        <button class="btn btn-lg">Jetzt buchen!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Container ("Kontakt" Section) -->
+    <div id="kontakt" class="container-fluid bg-grey">
+        <h2 class="text-center">Kontakt</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Bei Fragen können Sie uns gerne kontaktieren.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Gonsenheimerstr. 10, 55126 Mainz</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +49 6131 12345 0</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> info@rentacar.com</p>
+            </div>
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email2" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Google Maps -->
+    <div id="googlemap" style="width: 100%; height: 400px;"></div>
+    <script>
+        var locations = [
+            ['Rent As Car GmbH, Gonenheimerstr. 10, 55126 Mainz', 49.990565, 8.181144, , 1],
+            ['Rent As Car GmbH, Schlossstr. 52, 55411 Bingen', 49.965072, 7.882922, 2],
+        ];
+
+        // When the user clicks the marker, an info window opens.
+
+        function initMap() {
+            var myLatLng = {
+                lat: 49.975,
+                lng: 8.0
+            };
+
+            var map = new google.maps.Map(document.getElementById('googlemap'), {
+                zoom: 12,
+                center: myLatLng
+            });
+
+            var count = 0;
+
+
+            for (count = 0; count < locations.length; count++) {
+
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+                    map: map
+                });
+
+                marker.info = new google.maps.InfoWindow({
+                    content: locations[count][0]
+                });
+
+
+                google.maps.event.addListener(marker, 'click', function() {
+                    // this = marker
+                    var marker_map = this.getMap();
+                    this.info.open(marker_map, this);
+                    // Note: If you call open() without passing a marker, the InfoWindow will use the position specified upon construction through the InfoWindowOptions object literal.
+                });
+            }
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDti4G7ww9LCritoOg4AajPiWfYBXCqi8&callback=initMap">
+    </script>
+
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>© 2018 Rent A's car</p>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+
+            $(window).scroll(function() {
+                $(".slideanim").each(function() {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        })
+    </script>
+
+</body>
+
+</html>
